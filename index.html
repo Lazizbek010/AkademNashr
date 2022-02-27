@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AkademNashr</title>
     <link rel="icon" type="image/x-icon" href="/images/akademnashr-logo-icon.svg">
+    <!-- AOS ANIMATION CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,7 +61,7 @@
         <div class="bg-hero">
             <div class="container">
                 <div class="hero-content">
-                    <div class="hero-text">
+                    <div class="hero-text" data-aos="zoom-in" data-aos-duration="2000">
                         <div class="line-hero"></div>
                         <h1>Pythonda dasturlash asoslari</h1>
                         <p>Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir
@@ -86,14 +88,16 @@
                 <div class="line-hero"></div>
                 <h1>Nega aynan Akademnashr?</h1>
                 <div class="features-content">
-                    <div class="features-item">
+                    <div class="features-item" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="1000">
                         <div class="features-item-img">
                             <img src="images/feature-icon-1.svg" alt="features-icon1">
                         </div>
                         <h2>Oson buyurtma qilish</h2>
                         <p>Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
                     </div>
-                    <div class="features-item">
+                    <div class="features-item" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="2000">
                         <div class="features-item-img">
                             <img src="images/feature-icon-2.svg" alt="features-icon2">
                         </div>
@@ -101,7 +105,8 @@
                         <p>Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa
                             olasiz.</p>
                     </div>
-                    <div class="features-item">
+                    <div class="features-item" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center" data-aos-duration="3000">
                         <div class="features-item-img">
                             <img src="images/feature-icon-3.svg" alt="features-icon3">
                         </div>
@@ -118,7 +123,7 @@
         <div class="sale" id="aksiyalar">
             <div class="container">
                 <div class="sale-content">
-                    <div class="sale-text">
+                    <div class="sale-text" data-aos="zoom-in" data-aos-duration="1000">
                         <h1>Bolalar kitoblari uchun ajoyib aksiya!</h1>
                         <div class="sale-text-pi">
                             <p>Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari
@@ -132,7 +137,7 @@
                             </button>
                         </a>
                     </div>
-                    <div class="sale-img">
+                    <div class="sale-img" >
                         <img src="images/sale-img.png" alt="sale-img" srcset="images/sale-img.png 1x, images/sale-img@2x.png 2x">
                     </div>
                 </div>
@@ -196,7 +201,11 @@
         </div>
     </footer>
     <!-- End Footer -->
-
+    <!-- AOS ANIMATION JAVASCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <!-- FONT AWESOME LINK ICONS -->
     <script src="https://kit.fontawesome.com/1f35b4a0bd.js" crossorigin="anonymous"></script>
 </body>
